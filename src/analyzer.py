@@ -45,6 +45,6 @@ class HLSAnalyzer:
 
 if __name__ == "__main__":
     # Test this with the .m3u8 link you found in your Network tab
-    test_url = "PASTE_YOUR_LINK_HERE"
+    test_url = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     analyzer = HLSAnalyzer(test_url)
     analyzer.analyze()
